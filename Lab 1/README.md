@@ -10,7 +10,7 @@ There is no actor that plays Tinkerbell--her existence in the play comes from th
 
 For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
 
-# *Abetes*: Domestic Urinalysis Device for Diabetic Testing
+# *Abetes*: Domestic Urinalysis Device for Diabetic Testing. Testing with only 1 drop of urine.
 ![logo](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/logo.png)
 ![logo UI](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/logo%20UI.png)
 
@@ -29,8 +29,15 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
+**Mio's family used to be happy until recently her dad was diagnosed to have high risk of becoming a diabetic. A even worse scenario was that Mio might have inherited diabetes from her dad. Keeping track of the potential patients' glucose was indispensable. However, it would undoubtedly be extemely inconvenient for the family to go to the hospital frequently and take urinalysis or glucose test, especially when it was during the pandemic social distancing.**
+
+**To solve the problem, I invented *Abetes* -- a domestic urinalysis device for diabetic Testing. The mini portable device could be placed at home. It could also easily be carried with the patients when they are out. The device could test the glucose of the patient with only 1 drop of urine. When the test-taker drops the urine onto the glass of the device at home, if there is low risk of diabetes, it turns green with a "ding" sould, meaning the test-taker is totally safe. When there flashes orange light with a warning "danger" sound, it demonstrates that the test-taker is at intermediate risk. The worst case, when it presents red with a frightened "gong" sound, it suggests that the test-taker is at high risk. And it is urgent for the test-taker to visit his or her doctor and take treatments and medication.**
+
+**The interactive device connects with the smartphones and computers of the patients, family members, and the doctors, allowing them to track the daily change of the patient's glucose. Once the intermediate-risk patient becomes high-risk, or the high-risk patient becomes worse, the hospital would take actions to give patients treatments and hospitalization. It proffers glucose testing and home hospitalization anytime and anywhere.**
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
+![storyboard](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard.jpg)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
@@ -58,10 +65,15 @@ We invented this tool for this lab!
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
+**The set-up video:https://drive.google.com/file/d/1loWJlK6Zcpz8WMu2lzTzaVVdT58PVejy/view?usp=sharing**
 
+**low risk green**![low risk green](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/low%20risk%20green.png)
+**intermediate risk orange**![intermediate risk orange](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/intermediate%20risk%20orange.png)
+**high risk red**![high risk red](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/high%20risk%20red.png)
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+**Paper prototype for better understanding the implementation process:https://drive.google.com/file/d/1BxM38rIp72qFj03S8Kzf1O6m2hNbWTDr/view?usp=sharing**
 
 ## Part E. Costume the device
 
@@ -70,6 +82,12 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
+![device sketch](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/device%20sketch.jpg)
+![costumed device](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/photos%20of%20costumed%20device.jpg)
+![costumed device1](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/photos%20of%20costumed%20device%202.jpg)
+![costumed device2](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/photos%20of%20costumed%20device%203.jpg)
+![costumed device3](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/photos%20of%20costumed%20device%204.jpg)
+![costumed device4](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/photos%20of%20costumed%20device%205.jpg)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
@@ -78,8 +96,14 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Take a video of your prototyped interaction.**
 
+The final interaction video:https://drive.google.com/file/d/1BcZWWnbL6PJKVV8SlP0FXy1fvwXi_IKK/view?usp=sharing
+
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+**I would say thank you to my iTrek team for inspiring me on creating digital health devices. We made a domestic portable digital pillbox Minder for elderly patients during the pandemic social distancing. And we won the second prize. This is the starting point of me perceiving medical tech issues as one of the most pivotal social missions.**
+
+**Furthermore, as I started researching on portable devices for diabetic test, there were merely testing strips (https://shop.keto-mojo.com/products/keto-mojo-gk-plus-ketone-test-strips-60-pack?variant=32785665785961&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=EAIaIQobChMI1Mmt2JDs7gIV0ACtBh35Fw36EAYYBSABEgK60fD_BwE). Another glucose monitoring device(https://intro.mydario.com/DarioGlucoseMeter/pay-on-shop-d.php?tid=google.Dario_US_Shopping_MCPC_11.701&utm_source=google&utm_medium=cpc&utm_campaign=Dario_US_Shopping_MCPC_11&utm_content=701&gclid=EAIaIQobChMI1Mmt2JDs7gIV0ACtBh35Fw36EAYYAiABEgIH1vD_BwE) which connects with the smartphones also enlighted me during ideation.**
 
 # Staging Interaction, Part 2 
 
