@@ -31,7 +31,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 **Mio's family used to be happy until recently her dad was diagnosed to have high risk of becoming a diabetic. A even worse scenario was that Mio might have inherited diabetes from her dad. Keeping track of the potential patients' glucose was indispensable. However, it would undoubtedly be extemely inconvenient for the family to go to the hospital frequently and take urinalysis or glucose test, especially when it was during the pandemic social distancing.**
 
-**To solve the problem, I invented *Abetes* -- a domestic urinalysis device for diabetic Testing. The mini portable device could be placed at home. It could also easily be carried with the patients when they are out. The device could test the glucose of the patient with only 1 drop of urine. When the test-taker drops the urine onto the glass of the device at home, if there is low risk of diabetes, it turns green with a "ding" sould, meaning the test-taker is totally safe. When there flashes orange light with a warning "danger" sound, it demonstrates that the test-taker is at intermediate risk. The worst case, when it presents red with a frightened "gong" sound, it suggests that the test-taker is at high risk. And it is urgent for the test-taker to visit his or her doctor and take treatments and medication.**
+**To solve the problem, I invented *Abetes* -- a domestic urinalysis device for diabetic Testing. The mini portable device could be placed at home. It could also easily be carried with the patients when they are out.  Input: The device could test the glucose of the patient with only 1 drop of urine. Output: When the test-taker drops the urine onto the glass of the device at home, if there is low risk of diabetes, it turns green with a "ding" sould, meaning the test-taker is totally safe. When there flashes orange light with a warning "danger" sound, it demonstrates that the test-taker is at intermediate risk. The worst case, when it presents red with a frightened "gong" sound, it suggests that the test-taker is at high risk. And it is urgent for the test-taker to visit his or her doctor and take treatments and medication.**
 
 **The interactive device connects with the smartphones and computers of the patients, family members, and the doctors, allowing them to track the daily change of the patient's glucose. Once the intermediate-risk patient becomes high-risk, or the high-risk patient becomes worse, the hospital would take actions to give patients treatments and hospitalization. It proffers glucose testing and home hospitalization anytime and anywhere.**
 
@@ -41,16 +41,17 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
-
+**My classmates in my classroom love the idea that it actually solve urgent medical issues with a portable device. The device originally only presents color switch. They gave me advice on combining alarm sould with the colors to demonstrate greater attention on the high risk.**
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+**When working with a paper prototype, it natively achieve the goal of being "portable". Also, the nature of paper made if more like a glucose testing strips (already exist in the market) rather than some interactive device. Therefore, when I actually fabricate the real device, I must first consider the size of it. **
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
-
+**After acting with my collaborators, I also added a google cardboard as a holder of the responsive device (referring to smarphone here) and a arduino board to have it serve as the internal testing device. These moves highlighted the "interactive" part as well as the "device" part. Because it could indeed respond to the one drop of urine.**
 
 ## Part C. Prototype the device
 
