@@ -67,7 +67,8 @@ We invented this tool for this lab!
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
-**The set-up video:https://drive.google.com/file/d/1loWJlK6Zcpz8WMu2lzTzaVVdT58PVejy/view?usp=sharing**
+**The set-up tinkerbelle video:https://drive.google.com/file/d/1WsYcZbfTxrckNcPcUW6RcVo04wUNebg8/view?usp=sharing (This is the only link I added after 11:25am because I put in a wrong one)**
+**The set-up device video:https://drive.google.com/file/d/1loWJlK6Zcpz8WMu2lzTzaVVdT58PVejy/view?usp=sharing**
 
 **low risk green**![low risk green](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/low%20risk%20green.png)
 **intermediate risk orange**![intermediate risk orange](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/intermediate%20risk%20orange.png)
