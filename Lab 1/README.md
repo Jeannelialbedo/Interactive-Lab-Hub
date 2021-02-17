@@ -119,6 +119,12 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+**Jiadong Lou: By just looking at the title of the GitHub page and the video, I have already understood clearly the purpose of the device. It’s very clear for me that the scene is about testing for diabetes. The goal of the character is to get a rapid test result for diabetes. The choice of color can intuitively reflects the result of the test without even explaining to the user. Therefore, I think it’s a very well designed interactive device. I would suggest that to add another color that indicates invalid test samples. What if the user drops water instead of urine? You can add a new color to ask the user to try again(error prevention). Overall, very good work!**
+
+**Chelsea Luo: This is a really cool design, and I could see the idea being utilized widely. The video clearly demonstrates the idea, and the costume of the device is very well made. I like how you not only incorporated color for the visual feedback but also utilized different audio sources to convey different messages. Since there are three different potential feedbacks, it might be good to use more specific text-to-voice to differentiate the meaning behind each color (I know it is difficult to do with Tinkerbelle).**
+
+**Yuanhao zhu: From the video, I saw the user need to pour their urine sample on the device, and then the device will give an evaluation of diabetes based on the urine color. The idea is cool and I can see the great potential of this device. The color feedback is intuitive, as red represents high risk and green for low risk. The sound notification adapts to the color blind and other disability populations. The only thing that’s not clear is that the box has two wells for a urine sample, but in the video the user only used one, so is there any reason that there are two wells? Or it’s just because the box is made from a pair of goggles?**
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
