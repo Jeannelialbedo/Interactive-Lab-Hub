@@ -31,7 +31,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 **Mio's family used to be happy until recently her dad was diagnosed to have high risk of becoming a diabetic. A even worse scenario was that Mio might have inherited diabetes from her dad. Keeping track of the potential patients' glucose was indispensable. However, it would undoubtedly be extemely inconvenient for the family to go to the hospital frequently and take urinalysis or glucose test, especially when it was during the pandemic social distancing.**
 
-**To solve the problem, I invented *Abetes* -- a domestic urinalysis device for diabetic Testing. The mini portable device could be placed at home. It could also easily be carried with the patients when they are out.  Input: The device could test the glucose of the patient with only 1 drop of urine. Output: When the test-taker drops the urine onto the glass of the device at home, if there is low risk of diabetes, it turns green with a "ding" sould, meaning the test-taker is totally safe. When there flashes orange light with a warning "danger" sound, it demonstrates that the test-taker is at intermediate risk. The worst case, when it presents red with a frightened "gong" sound, it suggests that the test-taker is at high risk. And it is urgent for the test-taker to visit his or her doctor and take treatments and medication.**
+**To solve the problem, I invented *Abetes* -- a domestic urinalysis device for diabetic Testing. The mini portable device could be placed at home. It could also easily be carried with the patients when they are out.  Input: The device could test the glucose of the patient with only 1 drop of urine. Output: When the test-taker drops the urine onto the glass of the device at home, if there is low risk of diabetes, it turns green with a "ding" sound, meaning the test-taker is totally safe. When there flashes orange light with a warning "danger" sound, it demonstrates that the test-taker is at intermediate risk. The worst case, when it presents red with a frightened "gong" sound, it suggests that the test-taker is at high risk. And it is urgent for the test-taker to visit his or her doctor and take treatments and medication.**
 
 **The interactive device connects with the smartphones and computers of the patients, family members, and the doctors, allowing them to track the daily change of the patient's glucose. Once the intermediate-risk patient becomes high-risk, or the high-risk patient becomes worse, the hospital would take actions to give patients treatments and hospitalization. It proffers glucose testing and home hospitalization anytime and anywhere.**
 
@@ -41,7 +41,7 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
-**My classmates in my classroom love the idea that it actually solve urgent medical issues with a portable device. The device originally only presents color switch. They gave me advice on combining alarm sould with the colors to demonstrate greater attention on the high risk.**
+**My classmates in my classroom love the idea that it actually solve urgent medical issues with a portable device. The device originally only presents color switch. They gave me advice on combining alarm sound with the colors to demonstrate greater attention on the high risk.**
 
 ## Part B. Act out the Interaction
 
@@ -135,42 +135,43 @@ Do last week’s assignment again, but this time:
 **Document everything here.**
 ## Part A. Plan 
 
-To stage the interaction with your interactive device, think about:
+**Iteration - New Features:**
+**1. Large hardware with glasses changed to portable testing paper**
+**2. Personalized test and pill taking reminder with cute avatars that could be customized by the user**
+**3. User's behavioral data including daily emotion and sleeping pattern tracked**
+**4. Tinkerbelle changed to Arduino light and buzzer**
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
 
-**Mio's family used to be happy until recently her dad was diagnosed to have high risk of becoming a diabetic. A even worse scenario was that Mio might have inherited diabetes from her dad. Keeping track of the potential patients' glucose was indispensable. However, it would undoubtedly be extemely inconvenient for the family to go to the hospital frequently and take urinalysis or glucose test, especially when it was during the pandemic social distancing.**
+**Suzie, 24, was diagnosed to have high risk of diabetes due to genetic reasons. She was asked by her doctor to keep track of her glucose frequently. Nonetheless, during the pandemic, she was not capable of going to the hospital and take urinalysis everyday. So the hospial gave her a smart urinalysis kit - *Abetes*. It allows her to easily collect urine samples every morning when toileting.**
 
-**To solve the problem, I invented *Abetes* -- a domestic urinalysis device for diabetic Testing. The mini portable device could be placed at home. It could also easily be carried with the patients when they are out.  Input: The device could test the glucose of the patient with only 1 drop of urine. Output: When the test-taker drops the urine onto the glass of the device at home, if there is low risk of diabetes, it turns green with a "ding" sould, meaning the test-taker is totally safe. When there flashes orange light with a warning "danger" sound, it demonstrates that the test-taker is at intermediate risk. The worst case, when it presents red with a frightened "gong" sound, it suggests that the test-taker is at high risk. And it is urgent for the test-taker to visit his or her doctor and take treatments and medication.**
+**I invented *Abetes* -- a domestic urinalysis device for diabetic Testing. The mini portable device could be placed at home. It could also easily be carried with the patients when they are out.  Input: The device could test the glucose of the patient with only 1 drop of urine on the testing paper. Output: When the test-taker drops the urine onto the testing paper, if there is low risk of diabetes, it shows a "smiley face" with a low sound, meaning the test-taker is totally safe. When there showed a "unhappy face" with a warning intermittent higher sound, it demonstrates that the test-taker is at intermediate risk. The worst case, when it presents a "deeply-sad face" with a frightened continuous higher sound, it suggests that the test-taker is at high risk. And it is urgent for the test-taker to visit his or her doctor and take treatments and medication.**
 
-**The interactive device connects with the smartphones and computers of the patients, family members, and the doctors, allowing them to track the daily change of the patient's glucose. Once the intermediate-risk patient becomes high-risk, or the high-risk patient becomes worse, the hospital would take actions to give patients treatments and hospitalization. It proffers glucose testing and home hospitalization anytime and anywhere.**
+**Moreover, *Abetes* is synthesized with the user's daily toileting routine, helping the user to naturally develop a testing habbit. It proffers personalized test and pill taking reminder with cute avatars. It also collects User's behavioral data including daily emotion and sleeping pattern.**
 
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+**The interactive device connects with the smartphones and computers of the patients, family members, and the doctors, allowing them to track the daily changes and behavioral patterns of the patient's glucose. Once the intermediate-risk patient becomes high-risk, or the high-risk patient becomes worse, the hospital would take actions to give patients treatments and hospitalization. It proffers glucose testing and home hospitalization anytime and anywhere.**
+
+**The *Abetes* smart kit also support family use. Mio's family used to be happy until recently her dad was diagnosed to have high risk of becoming a diabetic. A even worse scenario was that Mio might have inherited diabetes from her dad. Keeping track of the potential patients' glucose was indispensable. However, it would undoubtedly be extemely inconvenient for the family to go to the hospital frequently and take urinalysis or glucose test, especially when it was during the pandemic social distancing.**
+
+
 **Include a picture of your storyboard here**
 ![storyboard](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/1.2%20storyboard.jpg)
 
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
-**My classmates in my classroom love the idea that it actually solve urgent medical issues with a portable device. The device originally only presents color switch. They gave me advice on combining alarm sould with the colors to demonstrate greater attention on the high risk.**
+
+**My breakout roommates thought this smart kit was even more accessible and portable than version 1. Especially when it is integrated with the user's daily routine, e.g. toileting, it makes the user more willing to employ the testing toilet paper. The personalized features are also super cute!**
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
-**When working with a paper prototype, it natively achieve the goal of being "portable". Also, the nature of paper made if more like a glucose testing strips (already exist in the market) rather than some interactive device. Therefore, when I actually fabricate the real device, I must first consider the size of it. **
+
+**When working with a paper prototype, it is quite easy to create a fusion of the input testing paper and the output tesing device. However, when actually fabricating the kit, it seemed hard to amalgmate all the functionalities in one piece of toilet paper. So the toilet paper is not so "smart" as it should have been. **
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
-**After acting with my collaborators, I also added a google cardboard as a holder of the responsive device (referring to smarphone here) and a arduino board to have it serve as the internal testing device. These moves highlighted the "interactive" part as well as the "device" part. Because it could indeed respond to the one drop of urine.**
+
+**At first, I was thinking of creating another device to substitute the Google goggle in version 1 - perhaps a even more complex and cumbersome one. After acting with my collaborators, I was inspired that the product could follow the intrinsic logic of the natural urine collecting process - toileting. And the device could be the convenient toilet paper.**
 
 ## Part C. Prototype the device
 
@@ -194,6 +195,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+
 **Paper prototype for better understanding the implementation process:https://drive.google.com/file/d/118APwxm_p6nc3f10KMt51o427PXRlDwp/view?usp=sharing**
 
 ## Part E. Costume the device
@@ -211,7 +213,8 @@ Think about the setting of the device: is the environment a place where the devi
 ![device sketch5](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/1.2%20device%20sketch5.jpg)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
-**Currently the input would be 1 drop of urine, and the output would be the color and the sound. I am thinking of making it more a personalized toolkit, giving feedbacks to the patient. And the sound could sounds like family members'**
+
+**In version 1, I was thinking of making it more a personalized toolkit, giving feedbacks to the patient. So I added the cute avatar which could be customized by the user. The toilet paper as the testing device making it more convenient and accessible for the user to form a habbit.**
 
 ## Part F. Record
 
@@ -220,6 +223,5 @@ Think about the setting of the device: is the environment a place where the devi
 **The final interaction video:https://drive.google.com/file/d/1zbhDeHk_g_n9tw7aO6217eiyKrYBBwUq/view?usp=sharing**
 
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-**I would say thank you to my iTrek team for inspiring me on creating digital health devices. We made a domestic portable digital pillbox Minder for elderly patients during the pandemic social distancing. And we won the second prize. This is the starting point of me perceiving medical tech issues as one of the most pivotal social missions.**
+**I would say thank you to classmates, Chelsea, Jiadong, Yuanhao, who gave me extremely enlightening feedback of version 1.**
