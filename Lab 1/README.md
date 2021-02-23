@@ -136,9 +136,13 @@ Do last week’s assignment again, but this time:
 ## Part A. Plan 
 
 **Iteration - New Features:**
+
 **1. Large hardware with glasses changed to portable testing paper**
+
 **2. Personalized test and pill taking reminder with cute avatars that could be customized by the user**
+
 **3. User's behavioral data including daily emotion and sleeping pattern tracked**
+
 **4. Tinkerbelle changed to Arduino light and buzzer**
 
 **Describe your setting, players, activity and goals here.**
