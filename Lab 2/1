@@ -1,0 +1,2 @@
+git checkout -b FAR-Lab-Spring2021 Spring2021
+git pull https://github.com/FAR-Lab/Interactive-Lab-Hub.git Spring2021
