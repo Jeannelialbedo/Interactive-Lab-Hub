@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
+In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell).
 
 There is no actor that plays Tinkerbell--her existence in the play comes from the interactions that the other characters have with her.
 
@@ -14,7 +14,7 @@ For lab this week, we draw on this and other inspirations from theatre to stage 
 ![logo](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/logo.png)
 ![logo UI](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/logo%20UI.png)
 
-## Part A. Plan 
+## Part A. Plan
 
 To stage the interaction with your interactive device, think about:
 
@@ -24,7 +24,7 @@ _Players:_ Who is involved in the interaction? Who else is there? If you reflect
 
 _Activity:_ What is happening between the actors?
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge).
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
@@ -35,7 +35,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 **The interactive device connects with the smartphones and computers of the patients, family members, and the doctors, allowing them to track the daily change of the patient's glucose. Once the intermediate-risk patient becomes high-risk, or the high-risk patient becomes worse, the hospital would take actions to give patients treatments and hospitalization. It proffers glucose testing and home hospitalization anytime and anywhere.**
 
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene.
 **Include a picture of your storyboard here**
 ![storyboard](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard.jpg)
 
@@ -45,7 +45,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it.
 
 **Are there things that seemed better on paper than acted out?**
 **When working with a paper prototype, it natively achieve the goal of being "portable". Also, the nature of paper made if more like a glucose testing strips (already exist in the market) rather than some interactive device. Therefore, when I actually fabricate the real device, I must first consider the size of it. **
@@ -55,16 +55,19 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
+You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device.
 
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
-We invented this tool for this lab! 
+We invented this tool for this lab!
+
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+
 **Give us feedback on Tinkerbelle.**
 **Sound could be more diverse. It would be better if I type in "Dangerous", and it would pronounce the same word.**
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record.
 
 **Include your first attempts at recording the set-up video here.**
 **The set-up tinkerbelle video:https://drive.google.com/file/d/1WsYcZbfTxrckNcPcUW6RcVo04wUNebg8/view?usp=sharing (This is the only link I added after 11:25am because I put in a wrong one)**
@@ -73,7 +76,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 **low risk green**![low risk green](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/low%20risk%20green.png)
 **intermediate risk orange**![intermediate risk orange](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/intermediate%20risk%20orange.png)
 **high risk red**![high risk red](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/high%20risk%20red.png)
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+Now, hange the goal within the same setting, and update the interaction with the paper prototype.
 
 **Show the follow-up work here.**
 **Paper prototype for better understanding the implementation process:https://drive.google.com/file/d/1BxM38rIp72qFj03S8Kzf1O6m2hNbWTDr/view?usp=sharing**
@@ -102,20 +105,20 @@ Think about the setting of the device: is the environment a place where the devi
 The final interaction video:https://drive.google.com/file/d/1BcZWWnbL6PJKVV8SlP0FXy1fvwXi_IKK/view?usp=sharing
 
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
 
 **I would say thank you to my iTrek team for inspiring me on creating digital health devices. We made a domestic portable digital pillbox Minder for elderly patients during the pandemic social distancing. And we won the second prize. This is the starting point of me perceiving medical tech issues as one of the most pivotal social missions.**
 
 **Furthermore, as I started researching on portable devices for diabetic test, there were merely testing strips (https://shop.keto-mojo.com/products/keto-mojo-gk-plus-ketone-test-strips-60-pack?variant=32785665785961&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=EAIaIQobChMI1Mmt2JDs7gIV0ACtBh35Fw36EAYYBSABEgK60fD_BwE). Another glucose monitoring device(https://intro.mydario.com/DarioGlucoseMeter/pay-on-shop-d.php?tid=google.Dario_US_Shopping_MCPC_11.701&utm_source=google&utm_medium=cpc&utm_campaign=Dario_US_Shopping_MCPC_11&utm_content=701&gclid=EAIaIQobChMI1Mmt2JDs7gIV0ACtBh35Fw36EAYYAiABEgIH1vD_BwE) which connects with the smartphones also enlighted me during ideation.**
 
-# Staging Interaction, Part 2 
+# Staging Interaction, Part 2
 
 This describes the second week's work for this lab activity.
 
 
 ## Prep (to be done before Lab on Wednesday)
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear.
 
 **Summarize feedback from your partners here.**
 
@@ -127,13 +130,13 @@ You will be assigned three partners from another group. Go to their github pages
 
 ## Make it your own
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
-3) We will be grading with an emphasis on creativity. 
+Do last week’s assignment again, but this time:
+1) It doesn’t have to (just) use light,
+2) You can use any modality (e.g., vibration, sound) to prototype the behaviors,
+3) We will be grading with an emphasis on creativity.
 
 **Document everything here.**
-## Part A. Plan 
+## Part A. Plan
 
 **Iteration - New Features:**
 
@@ -167,7 +170,7 @@ Do last week’s assignment again, but this time:
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it.
 
 **Are there things that seemed better on paper than acted out?**
 
@@ -183,7 +186,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
 **Arduino buzzer & light code** ![arduino code](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/1.2%20arduino%20code.png)
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record.
 
 **Include your first attempts at recording the set-up video here.**
 **The set-up device video:https://drive.google.com/file/d/17UHWDQMho408qSxVo6wjtfX-oaBbjKPQ/view?usp=sharing**
@@ -196,7 +199,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 **high risk**![high risk red](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%201/1.2%20arduino%20code%20high%20risk.png)
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+Now, hange the goal within the same setting, and update the interaction with the paper prototype.
 
 **Show the follow-up work here.**
 
