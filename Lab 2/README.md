@@ -170,8 +170,14 @@ After that git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**
 
+**Schrödinger's Cat Clock**
+**Time is nonlinear. The cat is only in one state at any particular time. Press A or B to enter a particular time, you will be able to observe if the cat is alive or dead. Ultimately, are you able to enter a time when the cat is alive and dead simultaneously? Try pressing both A and B :)**
+
+**
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+***TENET/The Curious Case of Benjamin Button* - time reversed by presenting human growing from old to young**
 
 
