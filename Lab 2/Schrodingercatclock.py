@@ -96,8 +96,7 @@ while True:
         image3 = image_formatting(image3, width, height)
 
         draw = ImageDraw.Draw(image3)
-
-        draw.text((4, 0), "Press to observe a time: cat alive or dead", font=font1, fill="#000000")
+        
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
         
 
@@ -107,7 +106,7 @@ while True:
 
         draw = ImageDraw.Draw(image3)
 
-        draw.text((4, 0), "Time A: Cat Alive", fill="#FFFF00")
+        draw.text((4, 0), "Time A: Cat Alive", font=font1, fill="#FFFF00")
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
         
 
@@ -117,7 +116,7 @@ while True:
 
         draw = ImageDraw.Draw(image3)
 
-        draw.text((4, 0), "Time B: Cat Dead", fill="#0000FF")
+        draw.text((4, 0), "Time B: Cat Dead", font=font1, fill="#FFFF00")
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
         
 
@@ -127,7 +126,7 @@ while True:
 
         draw = ImageDraw.Draw(image3)
 
-        draw.text((4, 0), "Time A & B: Cat Alive & Dead at once", fill="#FF00FF")
+        draw.text((4, 0), "Cat Alive & Dead at once", font=font1, fill="##FFFFFF")
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
         
 
