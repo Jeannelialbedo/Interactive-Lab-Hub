@@ -155,6 +155,8 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 **A copy of your code should be in your Lab 2 Github repo.**
 
+**code: https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Schrodingercatclock.py**
+
 you can push to your personal github repo by adding the files here, commiting and pushing.
 
 ```
@@ -169,6 +171,9 @@ After that git will ask you to login to your github account to upload.
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
+
+![cat](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Schrodingercat0.jpg)
+![cat2](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%202/cat2.jpg)
 
 **Schrödinger's Cat Clock:**
 
