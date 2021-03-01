@@ -111,7 +111,7 @@ while True:
         
 
     elif buttonA.value and not buttonB.value:  # press button B
-        image3 = Image.open("Schrodingercat22.jpg")
+        image3 = Image.open("Schrodingercat2.jpg")
         image3 = image_formatting(image3, width, height)
 
         draw = ImageDraw.Draw(image3)
