@@ -96,7 +96,7 @@ while True:
 
         draw = ImageDraw.Draw(image3)
 
-        draw.text((4, 0), "Press to observe a time: cat alive or dead", fill="#FFFF00")
+        draw.text((4, 0), "Press to observe a time: cat alive or dead", font=font, fill="#FFFF00")
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
         
 
