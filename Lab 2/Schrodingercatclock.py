@@ -92,7 +92,7 @@ while True:
     y = 10
 
     if buttonA.value and buttonB.value: #without any button pressed
-        image3 = Image.open("Schrodingercat0.jpg")
+        image3 = Image.open("Schrodingercat00.jpg")
         image3 = image_formatting(image3, width, height)
 
         draw = ImageDraw.Draw(image3)
