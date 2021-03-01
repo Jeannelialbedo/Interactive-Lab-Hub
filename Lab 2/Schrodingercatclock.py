@@ -57,7 +57,7 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 25)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -98,7 +98,7 @@ while True:
 
         draw.text((4, 0), "Press to observe a time: cat alive or dead", fill="#FFFF00")
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
-        disp.image(image, rotation)
+        
 
     elif buttonB.value and not buttonA.value:  # press button A
         image3 = Image.open("Schrodingercat1.jpg")
@@ -108,7 +108,7 @@ while True:
 
         draw.text((4, 0), "Time A: Cat Alive", fill="#FFFF00")
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
-        disp.image(image, rotation)
+        
 
     elif buttonA.value and not buttonB.value:  # press button B
         image3 = Image.open("Schrodingercat22.jpg")
@@ -118,7 +118,7 @@ while True:
 
         draw.text((4, 0), "Time B: Cat Dead", fill="#0000FF")
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
-        disp.image(image, rotation)
+        
 
     else: #press both button A and B
         image3 = Image.open("Schrodingercat3.jpg")
@@ -128,7 +128,7 @@ while True:
 
         draw.text((4, 0), "Time A & B: Cat Alive & Dead at once", fill="#FF00FF")
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
-        disp.image(image, rotation)
+        
 
     # Display image.
     disp.image(image3, rotation)
