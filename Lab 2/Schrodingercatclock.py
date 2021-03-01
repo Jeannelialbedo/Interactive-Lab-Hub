@@ -58,6 +58,7 @@ x = 0
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 25)
+font1 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 15)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -96,7 +97,7 @@ while True:
 
         draw = ImageDraw.Draw(image3)
 
-        draw.text((4, 0), "Press to observe a time: cat alive or dead", font=font, fill="#FFFF00")
+        draw.text((4, 0), "Press to observe a time: cat alive or dead", font=font1, fill="#000000")
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
         
 
