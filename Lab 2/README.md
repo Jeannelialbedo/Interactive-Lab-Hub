@@ -170,8 +170,11 @@ After that git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**
 
-**Schrödinger's Cat Clock**
+**Schrödinger's Cat Clock:**
+
 **Time is nonlinear. The cat is only in one state at any particular time. Press A or B to enter a particular time, you will be able to observe if the cat is alive or dead. Ultimately, are you able to enter a time when the cat is alive and dead simultaneously? Try pressing both A and B :)**
+
+**Video link: https://drive.google.com/file/d/1aZ61-zdEtBdtF0rb475HEAorPhPXfGrz/view?usp=sharing**
 
 **
 
