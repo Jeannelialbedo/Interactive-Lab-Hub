@@ -187,5 +187,5 @@ After that git will ask you to login to your github account to upload.
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
 ***TENET/The Curious Case of Benjamin Button* - time reversed by presenting human growing from old to young**
-
+![rejuvenation](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%202/rejuvenation.jpg)
 
