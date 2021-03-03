@@ -189,3 +189,9 @@ After that git will ask you to login to your github account to upload.
 ***TENET/The Curious Case of Benjamin Button* - time reversed by presenting human growing from old to young**
 ![rejuvenation](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%202/rejuvenation.jpg)
 
+
+**Feedback**
+
+**Chelsea Luo: This is a really creative idea. I think the philosophical paradoxes involved in the scenario is well represented through the clock device. There might be interesting to incorporate some effects to emphasis the simultaneous dead and alive state.**
+
+**William Zhang: The idea of integrating Shrodinger's cat's nonlinear timeline into the A and B buttons of the device is interesting and innovative. Maybe you could consider using the joystick in your future scheme to add more effects.**
