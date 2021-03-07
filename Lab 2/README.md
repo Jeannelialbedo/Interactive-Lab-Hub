@@ -155,6 +155,8 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 **A copy of your code should be in your Lab 2 Github repo.**
 
+**code: https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Schrodingercatclock.py**
+
 you can push to your personal github repo by adding the files here, commiting and pushing.
 
 ```
@@ -170,8 +172,26 @@ After that git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**
 
+![cat](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Schrodingercat0.jpg)
+![cat2](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%202/cat2.jpg)
+
+**Schrödinger's Cat Clock:**
+
+**Time is nonlinear. The cat is only in one state at any particular time. Press A or B to enter a particular time, you will be able to observe if the cat is alive or dead. Ultimately, are you able to enter a time when the cat is alive and dead simultaneously? Try pressing both A and B :)**
+
+**Video link: https://drive.google.com/file/d/1aZ61-zdEtBdtF0rb475HEAorPhPXfGrz/view?usp=sharing**
+
+**
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+***TENET/The Curious Case of Benjamin Button* - time reversed by presenting human growing from old to young**
+![rejuvenation](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%202/rejuvenation.jpg)
 
 
+**Feedback**
+
+**Chelsea Luo: This is a really creative idea. I think the philosophical paradoxes involved in the scenario is well represented through the clock device. There might be interesting to incorporate some effects to emphasis the simultaneous dead and alive state.**
+
+**William Zhang: The idea of integrating Shrodinger's cat's nonlinear timeline into the A and B buttons of the device is interesting and innovative. Maybe you could consider using the joystick in your future scheme to add more effects.**
