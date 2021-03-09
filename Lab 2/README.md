@@ -195,3 +195,15 @@ After that, git will ask you to login to your github account to upload.
 **Chelsea Luo: This is a really creative idea. I think the philosophical paradoxes involved in the scenario is well represented through the clock device. There might be interesting to incorporate some effects to emphasis the simultaneous dead and alive state.**
 
 **William Zhang: The idea of integrating Shrodinger's cat's nonlinear timeline into the A and B buttons of the device is interesting and innovative. Maybe you could consider using the joystick in your future scheme to add more effects.**
+
+
+
+# LAB 2 PART 2
+Pull Interactive Lab Hub updates to your repo.
+
+Modify the code from last week's lab to make a new visual interface for your new clock. You may extend the Pi by adding sensors or buttons, but this is not required.
+
+As always, make sure you document contributions and ideas from others explicitly in your writeup.
+
+You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page.
+
