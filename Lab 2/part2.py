@@ -8,6 +8,9 @@ from datetime import datetime
 from time import strftime, sleep
 from PIL import Image, ImageDraw, ImageFont
 import Encoder
+import qwiic_twist
+import qwiic_joystick
+import qwiic_button
 
 
 enc = Encoder.Encoder(24, 10)
@@ -79,8 +82,10 @@ def image_formatting(imagef, width, height):
 # Buttons
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
+buttonC = digitalio.DigitalInOut(board.D40)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
+buttonC.switch_to_input()
 
 height = disp.width
 width = disp.height
@@ -95,7 +100,10 @@ while True:
     x = 4
     y = 10
 
-    print(enc.read())
+    #print(enc.read())
+
+    if not buttonC.value:
+        print("hello") 
 
     if buttonA.value and buttonB.value: #without any button pressed
         image3 = Image.open("Schrodingercat00.jpg")
