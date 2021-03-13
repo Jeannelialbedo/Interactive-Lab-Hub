@@ -105,12 +105,15 @@ while True:
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py
     x = 4
     y = 10
-
+'''
     if GPIO.input(buttonPin):
         GPIO.output(lightPin, True)
         sleep(.1)
     else:
         GPIO.output(lightPin, False)
+'''
+    GPIO.output(lightPin, not GPIO.input(buttonPin))
+    sleep(1)
 
 
     if buttonA.value and buttonB.value: #without any button pressed
