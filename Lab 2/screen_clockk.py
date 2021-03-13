@@ -106,7 +106,7 @@ while True:
     x = 4
     y = 10
 
-    if not GPIO.input(buttonPin):
+    if GPIO.input(buttonPin):
         GPIO.output(lightPin, True)
         sleep(.1)
 
