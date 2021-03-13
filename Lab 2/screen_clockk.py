@@ -113,7 +113,7 @@ while True:
         GPIO.output(lightPin, False)
     '''
     GPIO.output(lightPin, not GPIO.input(buttonPin))
-    sleep(1)
+    sleep(.1)
 
 
     if buttonA.value and buttonB.value: #without any button pressed
