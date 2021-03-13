@@ -21,8 +21,7 @@ buttonPin = 26
 GPIO.setup(lightPin, GPIO.OUT)
 GPIO.setup(buttonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.output(lightPin, False)
-GPIO.output(lightPin, not GPIO.input(buttonPin))
-sleep(.1)
+
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -107,7 +106,11 @@ while True:
     x = 4
     y = 10
 
-    if buttonA.value and buttonB.value: #without any button pressed
+    if not GPIO.input(buttonPin):
+        GPIO.output(lightPin)
+        sleep(.1)
+        
+    elif buttonA.value and buttonB.value: #without any button pressed
         image3 = Image.open("Schrodingercat00.jpg")
         image3 = image_formatting(image3, width, height)
 
