@@ -114,7 +114,7 @@ while True:
     x = 4
     y = 10
 
-    if buttonA.value and buttonB.value: #without any button pressed
+    if buttonA.value and buttonB.value and GPIO.input(buttonPin): #without any button pressed
         image3 = Image.open("Schrodingercat00.jpg")
         image3 = image_formatting(image3, width, height)
 
@@ -123,7 +123,7 @@ while True:
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
 
-    elif buttonB.value and not buttonA.value:  # press button A
+    elif buttonB.value and not buttonA.value and GPIO.input(buttonPin):  # press button A
         image3 = Image.open("Schrodingercat11.jpg")
         image3 = image_formatting(image3, width, height)
 
@@ -133,7 +133,7 @@ while True:
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
 
-    elif buttonA.value and not buttonB.value:  # press button B
+    elif buttonA.value and not buttonB.value and GPIO.input(buttonPin):  # press button B
         image3 = Image.open("Schrodingercat2.jpg")
         image3 = image_formatting(image3, width, height)
 
