@@ -109,44 +109,45 @@ while True:
     if not GPIO.input(buttonPin):
         GPIO.output(lightPin)
         sleep(.1)
-        
-    elif buttonA.value and buttonB.value: #without any button pressed
-        image3 = Image.open("Schrodingercat00.jpg")
-        image3 = image_formatting(image3, width, height)
+    
+    else:
+        if buttonA.value and buttonB.value: #without any button pressed
+            image3 = Image.open("Schrodingercat00.jpg")
+            image3 = image_formatting(image3, width, height)
 
-        draw = ImageDraw.Draw(image3)
+            draw = ImageDraw.Draw(image3)
 
-        draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
-
-
-    elif buttonB.value and not buttonA.value:  # press button A
-        image3 = Image.open("Schrodingercat11.jpg")
-        image3 = image_formatting(image3, width, height)
-
-        draw = ImageDraw.Draw(image3)
-
-        draw.text((4, 0), "Time A: Cat Alive", font=font1, fill="#FFFF00")
-        draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
+            draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
 
-    elif buttonA.value and not buttonB.value:  # press button B
-        image3 = Image.open("Schrodingercat2.jpg")
-        image3 = image_formatting(image3, width, height)
+        elif buttonB.value and not buttonA.value:  # press button A
+            image3 = Image.open("Schrodingercat11.jpg")
+            image3 = image_formatting(image3, width, height)
 
-        draw = ImageDraw.Draw(image3)
+            draw = ImageDraw.Draw(image3)
 
-        draw.text((4, 0), "Time B: Cat Dead", font=font1, fill="#FFFF00")
-        draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
+            draw.text((4, 0), "Time A: Cat Alive", font=font1, fill="#FFFF00")
+            draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
 
-    elif not buttonA.value and not buttonB.value: #press both button A and B
-        image3 = Image.open("Schrodingercat33.jpg")
-        image3 = image_formatting(image3, width, height)
+        elif buttonA.value and not buttonB.value:  # press button B
+            image3 = Image.open("Schrodingercat2.jpg")
+            image3 = image_formatting(image3, width, height)
 
-        draw = ImageDraw.Draw(image3)
+            draw = ImageDraw.Draw(image3)
 
-        draw.text((4, 0), "Cat Alive & Dead at once", font=font1, fill="#FFFFFF")
-        draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
+            draw.text((4, 0), "Time B: Cat Dead", font=font1, fill="#FFFF00")
+            draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
+
+
+        else: #press both button A and B
+            image3 = Image.open("Schrodingercat33.jpg")
+            image3 = image_formatting(image3, width, height)
+
+            draw = ImageDraw.Draw(image3)
+
+            draw.text((4, 0), "Cat Alive & Dead at once", font=font1, fill="#FFFFFF")
+            draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
 
     # Display image.
