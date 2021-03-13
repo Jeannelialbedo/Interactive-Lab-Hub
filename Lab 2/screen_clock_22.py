@@ -7,6 +7,8 @@ import adafruit_rgb_display.st7789 as st7789
 from datetime import datetime
 from time import strftime, sleep
 from PIL import Image, ImageDraw, ImageFont
+import RPi.GPIO as GPIO
+from time import sleep
 
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -73,28 +75,25 @@ def image_formatting(imagef, width, height):
     return imagef
 
 
-    #button input
-    import RPi.GPIO as GPIO
-    from time import sleep
+#button input
+GPIO.setmode(GPIO.BCM)
+sleepTime = .1
 
-    GPIO.setmode(GPIO.BCM)
-    sleepTime = .1
+#GPIO Pin of the component
+lightPin = 21
+buttonPin = 26
 
-    #GPIO Pin of the component
-    lightPin = 21
-    buttonPin = 26
+GPIO.setup(lightPin, GPIO.OUT)
+GPIO.setup(buttonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.output(lightPin, False)
 
-    GPIO.setup(lightPin, GPIO.OUT)
-    GPIO.setup(buttonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+try:
+    while True:
+        GPIO.output(lightPin, not GPIO.input(buttonPin))
+        sleep(.1)
+finally:
     GPIO.output(lightPin, False)
-
-    try:
-        while True:
-            GPIO.output(lightPin, not GPIO.input(buttonPin))
-            sleep(.1)
-    finally:
-        GPIO.output(lightPin, False)
-        GPIO.cleanup()
+    GPIO.cleanup()
 
 # Buttons
 buttonA = digitalio.DigitalInOut(board.D23)
