@@ -107,10 +107,11 @@ while True:
     y = 10
 
     if not GPIO.input(buttonPin):
-        GPIO.output(lightPin, True)
-        sleep(.1)
+        try:
+            GPIO.output(lightPin, True)
+            sleep(.1)
        
-    except KeyboardInterrupt:
+        except KeyboardInterrupt:
             button.clear()
             break
     else:
