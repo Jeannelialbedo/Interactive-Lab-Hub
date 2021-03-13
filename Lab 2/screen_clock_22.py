@@ -153,3 +153,6 @@ try:
     while True:
         GPIO.output(lightPin, not GPIO.input(buttonPin))
         sleep(.1)
+finally:
+    GPIO.output(lightPin, False)
+    GPIO.cleanup()
