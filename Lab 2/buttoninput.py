@@ -14,7 +14,7 @@ GPIO.output(lightPin, False)
 
 try:
     while True:
-        GPIO.output(lightPin, GPIO.input(buttonPin))
+        GPIO.output(lightPin, not GPIO.input(buttonPin))
         sleep(.1)
 finally:
     GPIO.output(lightPin, False)
