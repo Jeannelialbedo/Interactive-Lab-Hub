@@ -10,20 +10,12 @@ buttonPin = 26
 
 GPIO.setup(lightPin, GPIO.OUT)
 GPIO.setup(buttonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-<<<<<<< Updated upstream
 GPIO.output(lightPin, False)
 
 try:
     while True:
-    GPIO.output(lightPin, GPIO.input(buttonPin))
-    sleep(.1)
+        GPIO.output(lightPin, GPIO.input(buttonPin))
+        sleep(.1)
 finally:
     GPIO.output(lightPin, False)
     GPIO.cleanup()
-=======
-
-while True:
-    GPIO.output(lightPin, GPIO.input(buttonPin))
-    sleep(.1)
-    
->>>>>>> Stashed changes
