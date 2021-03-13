@@ -207,3 +207,11 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page.
 
+**In part 2, since I was not able to get qwiic connectors, I utilized a breadboard and male-male jumper wires to create equivalent circuit as harnessing qwiic. I extended the Pi by adding an LED and a button. In my nonlinear Schrödinger's Cat Clock, after the user chooses to press a button and enter a world/time, the user could lit up the LED as a side effect at the same time.**
+
+![part2](https://github.com/Jeannelialbedo/Interactive-Lab-Hub/blob/Spring2021/Lab%202/part2.jpg)
+
+**video link: https://drive.google.com/file/d/18C7_TkvqYvlCO3vcfNWeOQ673jV7Ldrr/view?usp=sharing**
+
+**Limitations: without using qwiic, after covering the GPIO pins with the Pi TFT screen, there are just very few pins allowed to add female jumper wires and connect to I2C or the breadboard, making it hard to connect diverse sensors or parts at the same time. I am also trying to extend the Pi with the rotary encoder. It would be more convenient if I could extend the pins on the GPIO next time.**
+
