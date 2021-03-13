@@ -107,9 +107,12 @@ while True:
     y = 10
 
     if not GPIO.input(buttonPin):
-        GPIO.output(lightPin)
+        GPIO.output(lightPin, True)
         sleep(.1)
-    
+       
+    except KeyboardInterrupt:
+            button.clear()
+            break
     else:
         if buttonA.value and buttonB.value: #without any button pressed
             image3 = Image.open("Schrodingercat00.jpg")
