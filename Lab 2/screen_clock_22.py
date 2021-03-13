@@ -75,26 +75,6 @@ def image_formatting(imagef, width, height):
     return imagef
 
 
-#button input
-GPIO.setmode(GPIO.BCM)
-sleepTime = .1
-
-#GPIO Pin of the component
-lightPin = 21
-buttonPin = 26
-
-GPIO.setup(lightPin, GPIO.OUT)
-GPIO.setup(buttonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-GPIO.output(lightPin, False)
-
-try:
-    while True:
-        GPIO.output(lightPin, not GPIO.input(buttonPin))
-        sleep(.1)
-finally:
-    GPIO.output(lightPin, False)
-    GPIO.cleanup()
-
 # Buttons
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
@@ -143,7 +123,7 @@ while True:
         draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
 
 
-    else: #press both button A and B
+    elif not buttonA.value and not buttonB.value and GPIO.input(buttonPin): #press both button A and B
         image3 = Image.open("Schrodingercat33.jpg")
         image3 = image_formatting(image3, width, height)
 
@@ -157,3 +137,22 @@ while True:
     disp.image(image3, rotation)
     time.sleep(1)
 
+#button input
+GPIO.setmode(GPIO.BCM)
+sleepTime = .1
+
+#GPIO Pin of the component
+lightPin = 21
+buttonPin = 26
+
+GPIO.setup(lightPin, GPIO.OUT)
+GPIO.setup(buttonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.output(lightPin, False)
+
+try:
+    while True:
+        GPIO.output(lightPin, not GPIO.input(buttonPin))
+        sleep(.1)
+finally:
+    GPIO.output(lightPin, False)
+    GPIO.cleanup()
